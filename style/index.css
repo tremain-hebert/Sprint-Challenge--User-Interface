@@ -238,3 +238,11 @@ header nav a{
         width: 85%;
     }
 }
+@media(max-width: 800px){
+    .container{
+        width: 700px;
+    }
+    header #jumbo{
+        width: 100%;
+    }
+}
