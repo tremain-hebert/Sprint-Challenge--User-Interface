@@ -202,22 +202,24 @@ header nav a{
 }
 @media(max-width: 500px){
     .container {
-        width: 500px;
+        width: 400px;
         margin: 0 auto;
     }
-    #jumbo{
-        width: 100%;
+    header {
+        display: flex;
+        flex-direction: column;
     }
     header nav{
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
-    header nav a{
-        background-color: white;
+    header nav #lambda{
+        box-sizing: border-box;
+        margin-bottom: 20px;
     }
-    header nav a:hover{
-        background: grey;
+    header #jumbo{
+        width: 75%;
+        align-self: center;
     }
     .top-content{
         display: flex;
@@ -228,11 +230,11 @@ header nav a{
         display: flex;
         flex-direction: column;
     }
-    section.middle-content h2{
-        align-content: center;
-    }
-    .boxes{
+    .middle-content .boxes{
         flex-direction: column;
         align-items: center;
+    }
+    .bottom-content{
+        width: 85%;
     }
 }
