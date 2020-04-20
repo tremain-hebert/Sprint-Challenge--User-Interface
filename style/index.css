@@ -227,10 +227,12 @@ header nav a{
     .middle-content{
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+    section.middle-content h2{
+        align-content: center;
     }
     .boxes{
         flex-direction: column;
-        padding: 20px;
+        align-items: center;
     }
 }
