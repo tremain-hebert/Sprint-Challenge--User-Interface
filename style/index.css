@@ -144,3 +144,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+#lambda{
+    width: 20%;
+    align-content: flex-start;
+}
+header nav{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+/*Box Color*/
+#teal{
+    background: teal;
+}
+#gold{
+    background: gold;
+}
+#cadetblue{
+    background: cadetblue;
+}
+#coral{
+    background: coral;
+}
+#crimson{
+    background: crimson;
+}
+#forestgreen{
+    background: forestgreen;
+}
+#darkorchid{
+    background: darkorchid;
+}
+#hotpink{
+    background: hotpink;
+}
+#indigo{
+    background: indigo;
+}
+#dodgerblue{
+    background: dodgerblue;
+}
