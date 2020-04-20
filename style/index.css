@@ -246,3 +246,27 @@ header nav a{
         width: 100%;
     }
 }
+#about header{
+    /*border: 2px solid;*/
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+#about #lambda{
+    /*border: 2px solid;*/
+    width: 25%
+}
+#about header nav{
+    /*border: 2px solid;*/
+    width: 90%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#about header nav a{
+    /*border: 2px solid;*/
+    color: black;
+    text-decoration: none;
+}
