@@ -202,8 +202,7 @@ header nav a{
 }
 @media(max-width: 500px){
     .container {
-        width: 500px;
-        margin: 0 auto;
+        max-width: 500px;
     }
     header {
         display: flex;
@@ -212,27 +211,23 @@ header nav a{
     header nav{
         flex-direction: column;
         align-items: center;
-        width: 100vw;
     }
     header nav #lambda{
         box-sizing: border-box;
         margin-bottom: 20px;
-        width: 45vw;
     }
     header #jumbo{
-        width: 75%;
         align-self: center;
+        max-width: 400px;
     }
     .top-content{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90vw;
     }
     .middle-content{
         display: flex;
         flex-direction: column;
-        width: 90vw;
     }
     .middle-content h2{
         display: flex;
@@ -243,7 +238,8 @@ header nav a{
         align-items: center;
     }
     .bottom-content{
-        width: 85vw;
+        flex-direction: row;
+        align-items: center;
     }
 }
 @media(max-width: 800px){
