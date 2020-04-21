@@ -212,10 +212,12 @@ header nav a{
     header nav{
         flex-direction: column;
         align-items: center;
+        width: 100vw;
     }
     header nav #lambda{
         box-sizing: border-box;
         margin-bottom: 20px;
+        width: 45vw;
     }
     header #jumbo{
         width: 75%;
@@ -225,19 +227,23 @@ header nav a{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 90vw;
     }
     .middle-content{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 90vw;
+    }
+    .middle-content h2{
+        display: flex;
+        justify-content: center;
     }
     .middle-content .boxes{
         flex-direction: column;
         align-items: center;
     }
     .bottom-content{
-        width: 85%;
+        width: 85vw;
     }
 }
 @media(max-width: 800px){
